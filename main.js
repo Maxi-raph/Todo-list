@@ -6,8 +6,7 @@ const arrOfObj = []
 function addLi() {  
   if (input.value === '') {
   const randomArrText = ['Type something' ,'Input is empty', 'Write here' , 'Don’t you wanna do anything today' ]
-    input.placeholder =   randomArrText[Math.floor(Math.random() * randomArrText.length)]
-    
+    input.placeholder =   randomArrText[Math.floor(Math.random() * randomArrText.length)]  
     input.focus() 
   }
   else{
