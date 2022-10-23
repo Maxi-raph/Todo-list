@@ -43,7 +43,7 @@ function check() {
 }
      // Adding an event to the enter key to add the inputvalue to the array//
 window.addEventListener('keypress',(e) => {
-  if (e.code === 'Enter') { 
+  if (e.code === 'Enter' || 'Submit') { 
     e.preventDefault() 
     addLi()
   } 
