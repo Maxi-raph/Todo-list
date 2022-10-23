@@ -11,9 +11,10 @@ function addLi() {
     input.focus() 
   }
   else{
+    input.value = input.value[0].toUpperCase() + input.value.slice(1)
     input.placeholder = "What do you want to do today..."
       arrOfObj.push(input.value) 
-        todoList.innerHTML +=  `<div class = "list"> <span class = "text">${arrOfObj.slice(-1)}</span><div><input type = 'checkbox' class = 'check'/><button class = "delete"><i class="fa-solid fa-trash" >del</i></button></div></div>`  
+        todoList.innerHTML +=  `<div class = "list"> <span class = "text">${arrOfObj.slice(-1)}</span><div><input type = 'checkbox' class = 'check'/><button class = "delete"><i class="fa-solid fa-trash" ></i></button></div></div>`  
         input.value = ''
         check()
         delLi()

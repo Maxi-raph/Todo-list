@@ -45,22 +45,19 @@ body{
 .btn{
     width: 20%;
     height: 30px;
-    margin-left: 30px;
+    margin-left: 20px;
     border-radius: 4px;
     border: 0px;
     cursor:pointer;
     outline: 0px;
 }
-.todo_list{
-    list-style: none;
-}
 .list{
-  width:90%;
+  width:88%;
   min-height: 40px;
   border-radius: 8px;
   background-color:#775ef5;
   color: white;
-  margin:20px auto;
+  margin:20px 0px 20px 18px;
   display: flex;
   align-items: center;
   padding: 10px;
